@@ -1,8 +1,8 @@
-const host = "https://old.reddit.com"
-const regex = /^https?:\/\/(?:www.reddit.com|reddit.com)([\S\s]*)/
+const host = "https://teddit.net";
+const regex = /^https?:\/\/(?:www.reddit.com|reddit.com)([\S\s]*)/;
 
 chrome.webRequest.onBeforeRequest.addListener(
-  function(details){
+  function(details) {
     return {redirectUrl: host + details.url.match(regex)[1]}
   },
   {
