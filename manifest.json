@@ -1,7 +1,7 @@
 {
-  "name": "Old Reddit Redirect",
-  "version": "1.0.0",
-  "description": "Re-routes new reddit to the old reddit automatically",
+  "name": "red2ted",
+  "version": "0.1",
+  "description": "Redirects reddit to teddit automatically",
   "background": {
     "scripts": ["background.js"]
   },
