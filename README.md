@@ -1,5 +1,5 @@
 # red2ted
-Chrome extension for redirecting the reddit.com to teddit.net
+Chrome extension for redirecting reddit.com to teddit.net
 
 ### Teddit
 https://codeberg.org/teddit/teddit
